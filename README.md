@@ -1,8 +1,8 @@
 ---
-title: atelier-by-minnakshi
+title: test3
 emoji: 🐳
-colorFrom: yellow
-colorTo: red
+colorFrom: purple
+colorTo: gray
 sdk: static
 pinned: false
 tags:
