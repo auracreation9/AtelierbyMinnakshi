@@ -1,4 +1,5 @@
-{
+# Create package.json for npm/yarn compatibility
+package_json_content = '''{
   "name": "atelier-by-minnakshi",
   "version": "1.0.0",
   "description": "Luxury soft skills training website for Atelier by Minnakshi",
@@ -32,4 +33,10 @@
   "engines": {
     "node": ">=14.0.0"
   }
-}
+}'''
+
+# Save the package.json file
+with open('package.json', 'w', encoding='utf-8') as f:
+    f.write(package_json_content)
+
+print("✅ package.json file created successfully!")

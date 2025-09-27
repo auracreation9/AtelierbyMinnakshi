@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+# Create the HTML file for deployment
+html_content = '''<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -250,7 +251,7 @@
             <!-- Combined Services Section -->
             <div class="max-w-4xl mx-auto p-12 mb-20" data-aos="fade-up">
                 <h2 class="text-4xl font-bold text-rolexGold mb-8 text-center">Core Skill Trainings</h2>
-
+                
                 <div class="space-y-10">
                     <div class="text-center mb-12">
                         <h3 class="text-2xl font-bold text-rolexGold mb-2">Corporate Training</h3>
@@ -280,7 +281,7 @@
             <div class="max-w-4xl mx-auto">
                 <p class="text-lg mb-8 leading-relaxed">
                     Bridging the gap between sales professionals and the world of HNIs, UHNIs, and VIPs with refined understanding and service excellence.
-
+                    
                     Redefining how luxury clients are understood, engaged, and served.
                 </p>
                 <div class="grid gap-8 md:grid-cols-2 mt-12">
@@ -404,7 +405,7 @@
                              class="w-full h-auto object-cover transform transition-all duration-700 group-hover:scale-105 group-hover:brightness-110">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 </div>
-
+                    
                     <h3 class="text-2xl font-serif font-bold mb-4 text-rolexGold">From Modelling to Media Mastery</h3>
                     <p class="text-lg text-rolexDark mb-4 leading-relaxed">
                         Minnakshi's remarkable journey began in the world of modeling, where she developed an innate understanding of presentation, poise, and personal branding. Her early career gave her firsthand experience with high expectations and refined aesthetics that would later inform her professional approach.
@@ -413,7 +414,7 @@
                         Transitioning into media and communications, she honed her skills in public presence and professional etiquette. This experience became the foundation for her later work in corporate training and personal development, blending the visual impact of modeling with strategic communication techniques.
                     </p>
                 </div>
-
+                
                 <div class="space-y-6" data-aos="fade-left">
                     <div class="bg-white p-8 rounded-lg shadow-lg border-l-4 border-rolexGold">
                         <h4 class="text-xl font-serif font-bold mb-3 text-rolexDark">Early Career: Modelling</h4>
@@ -421,14 +422,14 @@
                             Developed expertise in body language, presentation, and personal branding through modeling assignments.
                         </p>
                     </div>
-
+                    
                     <div class="bg-white p-8 rounded-lg shadow-lg border-l-4 border-rolexGold">
                         <h4 class="text-xl font-serif font-bold mb-3 text-rolexDark">Media Transition</h4>
                         <p class="text-rolexDark">
                             Transitioned into media and communications, further refining public speaking and professional presence.
                         </p>
                     </div>
-
+                    
                     <div class="bg-white p-8 rounded-lg shadow-lg border-l-4 border-rolexGold">
                         <h4 class="text-xl font-serif font-bold mb-3 text-rolexDark">Training & Coaching</h4>
                         <p class="text-rolexDark">
@@ -602,7 +603,7 @@
             .grid-container {
                 columns: 2 200px;
             }
-
+            
             h1 {
                 font-size: 2rem;
             }
@@ -611,7 +612,7 @@
 </head>
 <body>
     <h1>Modeling Journey</h1>
-
+    
     <div class="grid-container">
         <div>
             <img class='grid-item grid-item-1' src='https://huggingface.co/spaces/AuraCreation9/test3/resolve/main/images/IMG_1013.JPG?w=1200&q=95' alt='Modeling photo 1'>
@@ -683,9 +684,9 @@
         const closeBtn = document.querySelector('.close');
         const prevBtn = document.querySelector('.prev');
         const nextBtn = document.querySelector('.next');
-
+        
         let currentIndex = 0;
-
+        
         // Open lightbox when clicking on an image
         gridItems.forEach((item, index) => {
             item.addEventListener('click', () => {
@@ -693,45 +694,45 @@
                 openLightbox();
             });
         });
-
+        
         function openLightbox() {
             lightbox.style.display = 'flex';
             updateLightboxImage();
         }
-
+        
         function closeLightbox() {
             lightbox.style.display = 'none';
         }
-
+        
         function updateLightboxImage() {
             // Use higher quality image by removing size parameters from URL
             const imgSrc = gridItems[currentIndex].src.replace(/&w=\d+&q=\d+/, '&w=800&q=85');
             lightboxImg.src = imgSrc;
             numberText.textContent = `${currentIndex + 1} / ${gridItems.length}`;
         }
-
+        
         function showPrevImage() {
             currentIndex = (currentIndex - 1 + gridItems.length) % gridItems.length;
             updateLightboxImage();
         }
-
+        
         function showNextImage() {
             currentIndex = (currentIndex + 1) % gridItems.length;
             updateLightboxImage();
         }
-
+        
         // Event listeners
         closeBtn.addEventListener('click', closeLightbox);
         prevBtn.addEventListener('click', showPrevImage);
         nextBtn.addEventListener('click', showNextImage);
-
+        
         // Close lightbox when clicking outside the image
         lightbox.addEventListener('click', (e) => {
             if (e.target === lightbox) {
                 closeLightbox();
             }
         });
-
+        
         // Keyboard navigation
         document.addEventListener('keydown', (e) => {
             if (lightbox.style.display === 'flex') {
@@ -748,7 +749,7 @@
 </body>
 </html>
 
-
+   
     </div>
 
         </div>
@@ -894,7 +895,7 @@
         setTimeout(() => {
             const popup = document.getElementById('subscriptionPopup');
             popup.classList.remove('hidden');
-
+            
             // Auto-hide after 60 seconds (1 minute)
             setTimeout(() => {
                 popup.classList.add('hidden');
@@ -968,7 +969,7 @@
         gsap.utils.toArray('section').forEach((section, i) => {
             const bg = section.querySelector('.bg-parallax') || section;
             const content = section.querySelector('.content-wrapper') || section;
-
+            
             gsap.from(content, {
                 scrollTrigger: {
                     trigger: section,
@@ -1169,4 +1170,11 @@
         });
     </script>
 </body>
-</html>
+</html>'''
+
+# Save the HTML file
+with open('index.html', 'w', encoding='utf-8') as f:
+    f.write(html_content)
+
+print("✅ index.html file created successfully!")
+print("File size:", len(html_content), "characters")
