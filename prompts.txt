@@ -1,0 +1,67 @@
+change color to dark silver gray 
+add vision
+add journey with hero section and services
+replace text with 
+“Bridging the gap between sales professionals and the world of HNIs, UHNIs, and VIPs with refined understanding and service excellence.”
+
+“Redefining how luxury clients are understood, engaged, and served.”
+add journey section
+remove home text and move click trigger options to the logo on the hero header
+add Minnakshijourney section below services
+add "Minnakshi's journey" section below services section
+add a section below services on a new page with the name : JOURNEY
+shift Minnakshi's Journey page below contact
+remove contact button toggle
+remove Contact button links in the below pages
+remove Contact button link below services
+put journey section right above the contact page
+shift the whole journey section to the bottom of the page after all the service section content create a text paragraph explaining minnakshi's journey from modelling to media journey
+remove "Contact" link Button 
+Replace image 
+replace image
+create header in hero section without anyother changes
+Header has to be seen in everypage while scrolling and make no ther changes
+remove
+remove header
+Change font to white
+Font colur to white
+font to white
+font to white
+change - Core Skill Training 
+Change text to Core Skill Training 
+Change text to Core Skill Training 
+Change text to Core Skill Training 
+Change text color - rolexgold
+Core Skill Trainings change text color to rolex gold
+Text color ro white
+Change text to white
+remove block green background and just keep text on transparent background
+change solid green background on the Core skill trainings and just keep text with no background
+change services text to dark forest green
+text color to rolex gold
+remove card and just show text without background
+Make it rolex gold font color
+Heading 2 
+font color = rolex color 
+Caption images
+Change Core Skill Trainings text colour to rolex 2 in Heading 2
+Add "Subscribe to receive updates on upcoming workshops and exclusive content." pop up page,
+after 5 seconds of page loading
+Enhance this image to HD do not make any other changes
+Enhance the images to HD in this block and make no modification or changes improve the images. 
+Enhance this image to HD
+Enhance the images in this block to HD. Make no other changes except this. 
+Enhance on the images in this section to HD and nothing else. Make no changes except this
+Enhance only this image to HD and no more changes
+Enhance only this image as HD and make no more changes
+Enhance this image to HD and make no other changes
+Enhance this image as HD and make no other changes
+Enhance this image as HD and make no other changes
+Enhance this image as HD and make no other changes 
+Enhance this image as HD and make no changes
+Enhance this image as HD and make no other changes
+Enhance this image as HD and make no other changes
+Enhance this image as HD and make no other changes
+Remove this block only and make no changes 
+Enhance it to full image with the face and make no other changes except this image only
+Insert this image as background image and make it beautiful and make no other changes 
